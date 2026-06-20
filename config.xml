@@ -1,0 +1,19 @@
+<theme>
+    <formatVersion>4</formatVersion>
+	
+	<include subset="colorset" name="1-Blue/ Red Menu Text">./colorsets/bluered.xml</include>
+	<include subset="colorset" name="2-Grey/ Red Menu Text">./colorsets/greyred.xml</include>
+	<include subset="colorset" name="3-Blue/ White Menu Text">./colorsets/blue.xml</include>
+	<include subset="colorset" name="4-Grey/ White Menu Text">./colorsets/grey.xml</include>
+	
+	<include subset="iconset" name="1-SNES ALT">./iconsets/snesalt.xml</include>
+	<include subset="iconset" name="2-standard icons">./iconsets/default.xml</include>
+	<include subset="iconset" name="3-SNES">./iconsets/snes.xml</include>
+	<include subset="iconset" name="4-XBox">./iconsets/xbox.xml</include>
+	<include subset="iconset" name="5-PSX">./iconsets/psx.xml</include>
+	
+	<include subset="systemview" name="1-Vertical Wheel">./systemview/vright.xml</include>
+	<include subset="systemview" name="2-Vertical Right">./systemview/vertical.xml</include>
+	<include subset="systemview" name="3-Low Res BG">./systemview/vrlow.xml</include>
+	
+</theme>
