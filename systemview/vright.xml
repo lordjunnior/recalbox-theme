@@ -1,0 +1,50 @@
+<theme>
+<formatVersion>4</formatVersion>
+
+
+<view name="system">
+
+	<image name="art" extra="true">
+		<path>./../assets/arts/$system.jpg</path>
+		<size>1 1</size>
+		<pos>0 0</pos>
+		<origin>0 0</origin>
+	</image> 	
+ 
+
+
+
+	<carousel name="systemcarousel">
+		<type>vertical_wheel</type>
+		<pos>0 0</pos>
+		<size>1 1</size>
+		<origin>0 0</origin>
+		<color>00000000</color>
+		<logoScale>1.5</logoScale>
+		<logoSize>0.2 0.2</logoSize>
+		<logoRotation>-6.5</logoRotation>
+		<logoRotationOrigin>3.2 0.5</logoRotationOrigin>
+		<logoAlignment>right</logoAlignment>
+		<maxLogoCount>9</maxLogoCount>
+		<zIndex>75</zIndex>
+	</carousel>
+
+	<text name="systemInfo">
+		<fontPath>./../assets/Roboto-Medium.ttf</fontPath>
+		<pos>0 0.95</pos>
+		<size>0.98 0.05</size>
+		<fontSize>0.026</fontSize>
+		<alignment>right</alignment>
+		<zIndex>71</zIndex>
+	</text>
+
+
+	<helpsystem name="help">
+		<fontPath>./../assets/Superstar X.ttf</fontPath>
+		<fontSize>0.028</fontSize>
+		<pos>0.05 0.94</pos>
+	</helpsystem>
+  
+</view>
+
+</theme>
